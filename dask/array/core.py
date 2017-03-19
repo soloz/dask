@@ -918,7 +918,7 @@ def finalize(results):
 class Array(Base):
     """ Parallel Dask Array
 
-    A parallel nd-array comprised of many numpy arrays arranged in a grid.
+    A parallel, immutable nd-array comprised of many numpy arrays arranged in a grid.
 
     This constructor is for advanced uses only.  For normal use see the
     ``da.from_array`` function.
